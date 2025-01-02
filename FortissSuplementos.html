@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en"  id="home">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Document0</title>
+</head>
+<body>
+    <h1>WELCOME</h1>
+    <div class="headerdiv">
+        <header>
+            <nav> 
+                <ul>
+                    <div class="menu">
+                        <li><a onclick="home()" class="btn">Home</a></li>
+                        <li><a onclick="buy()" class="btn">Buy</a></li>
+                        <li><a onclick="contact()" class="btn">Contact Us</a></li>
+                    </div>
+                </ul>
+            </nav>
+        </header>
+
+    </div>
+    <section class="slider" id="store">
+        <h2 class="text">Products</h2>
+       <div class="gallery">
+           <img src="imgs/img1.jpg" class="card" onclick="gotoSection1()">
+           <img src="imgs/img2.jpg" class="card" onclick="gotoSection2()">
+           <img src="imgs/img3.jpg" class="card" onclick="gotoSection3()">
+           <img src="imgs/img4.jpg" class="card" onclick="gotoSection4()">
+           <img src="imgs/img5.jpg" class="card" onclick="gotoSection5()">
+           <img src="imgs/img6.jpg" class="card" onclick="gotoSection6()">
+           <img src="imgs/img7.jpg" class="card">
+           <img src="imgs/img8.jpeg" class="card">
+       </div>
+    </section>
+
+
+
+    <section class="infodiv">
+
+        <div class="infocards">
+            <div  class="info1" id="product1">
+                <p>
+                    La creatina es una sustancia química que se encuentra naturalmente
+                    en el cuerpo. También se encuentra en carnes rojas y mariscos.
+                    A menudo se utiliza para mejorar el rendimiento del ejercicio y la 
+                    masa muscular. La creatina participa en la producción de energía 
+                    para los músculos.
+                </p>
+            </div>
+            <div  class="infoImg">
+                <img src="imgs/img1.jpg" alt="Img1" class="infoImg">
+            </div>
+        </div>
+
+        <div class="infocards">
+            <div  class="info2" id="product2">
+                <p>
+                    En la investigación sobre el uso de creatina para actividades y 
+                    afecciones específicas se puede observar: Resistencia, tamaño muscular
+                    y rendimiento. El uso de creatina oral podría permitir a un atleta
+                    trabajar más durante repeticiones o carreras cortas, lo que lo hace
+                    ganar más fuerza, masa muscular y rendimiento
+                </p>
+            </div>
+            <div>
+                <img src="imgs/img2.jpg" alt="Img2" class="infoImg">
+            </div>    
+        </div>
+
+        <div class="infocards">
+            <div  class="info3" id="product3">
+                <p>
+                    ¿Qué diferencia hay entre la creatina y la creatina monohidratada?
+                    DIFERENCIA ENTRE UNA CREATINA MONOHIDRATADA Y MICRONIZADA ...
+                    La creatina monohidratada es el tipo de creatina más común y se 
+                    presenta en forma de polvo grueso. La creatina micronizada, por otro
+                    lado, ha sido procesada aún más para reducir el tamaño de partícula,
+                    lo que significa que es un polvo más fino y más fácil de disolver
+                    en líquidos
+                </p>
+            </div>
+            <div>
+                <img src="imgs/img3.jpg" alt="Img3" class="infoImg">
+            </div>
+        </div>     
+        
+        <div class="infocards">
+            <div  class="info1" id="product4">
+                <p>
+                    La creatina es una sustancia química que se encuentra naturalmente
+                    en el cuerpo. También se encuentra en carnes rojas y mariscos.
+                    A menudo se utiliza para mejorar el rendimiento del ejercicio y la 
+                    masa muscular. La creatina participa en la producción de energía 
+                    para los músculos.
+                </p>
+            </div>
+            <div>
+                <img src="imgs/img4.jpg" alt="Img4" class="infoImg">
+            </div>
+        </div>
+
+        <div class="infocards">
+            <div  class="info2" id="product5">
+                <p>
+                    En la investigación sobre el uso de creatina para actividades y 
+                    afecciones específicas se puede observar: Resistencia, tamaño muscular
+                    y rendimiento. El uso de creatina oral podría permitir a un atleta
+                    trabajar más durante repeticiones o carreras cortas, lo que lo hace
+                    ganar más fuerza, masa muscular y rendimiento
+                </p>
+            </div>
+            <div>
+                <img src="imgs/img5.jpg" alt="Img5" class="infoImg">
+            </div>
+        </div>
+
+        <div class="infocards">
+            <div  class="info3" id="product6">
+                <p>
+                    ¿Qué diferencia hay entre la creatina y la creatina monohidratada?
+                    DIFERENCIA ENTRE UNA CREATINA MONOHIDRATADA Y MICRONIZADA ...
+                    La creatina monohidratada es el tipo de creatina más común y se 
+                    presenta en forma de polvo grueso. La creatina micronizada, por otro
+                    lado, ha sido procesada aún más para reducir el tamaño de partícula,
+                    lo que significa que es un polvo más fino y más fácil de disolver
+                    en líquidos
+                </p>
+            </div>
+            <div>
+                <img src="imgs/img6.jpg" alt="Img6" class="infoImg">
+            </div>
+        </div>
+    </section>
+
+
+    <form id="contact">
+        <h2>CONTACT US</h2>
+        <label for="name">Nombre:</label>
+        <input type="text" id="name" name="name" required>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="message">Mensaje:</label>
+        <textarea id="message" name="message" rows="2" required></textarea>
+
+        <button value="submit" type="Enviar">ENVIAR</button>
+    </form>
+
+    <footer>
+        <p>&copy; Todos los derechos reservados.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+
